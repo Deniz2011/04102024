@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog-wrapper{
+    min-height: 100dvh;
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.blog-img-container{
+    width: 100%;
+    
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.blog-tag{
+    text-align: left;
+    color: white;
+    font-weight: bolder ;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blog-explanation{
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.blog-schedule{
+    display:flex;
+    margin-top: 20px;
+}
+.blog-time{
+    color: hsl(178, 100%, 50%);
+     font-weight: bolder;
+     display: flex;
+     
+    
+}
+
+.blog-day{
+    color: hsl(215, 51%, 70%);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 140px;
+  
+}
+.blog-avatar-container{
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-top: 8px;
+}
+
+.avatar-information{
+    display: flex;
+}
+.avatar-by{
+    color:hsl(215, 51%, 70%); 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.avatar-name{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.icon{
+    font-size: 5px;
+    vertical-align: middle;
+    line-height: 1;
+}
